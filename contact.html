@@ -120,60 +120,37 @@
     <!-- Page Header End -->
 
 
-    <!-- Contact Start -->
-    <div class="container-xxl py-6">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">// Contact Us</p>
-                <h1 class="display-6 mb-4">If You Have Any Query, Please Contact Us</h1>
-            </div>
-            <div class="row g-0 justify-content-center">
-                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                    <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
-                        <!-- Hidden fields -->
-                        <input type="hidden" name="access_key" value="f6a47887-4d32-4527-b344-2ab2c305d732">
-                        
-                        <!-- Name field -->
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <!-- Email field -->
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <!-- Subject field -->
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <!-- Message field -->
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 200px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <!-- Submit button -->
-                            <div class="col-12 text-center">
-                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>      
-    <!-- Contact End -->
-
+   <!-- /contact-form -->
+	<section class="w3l-contact-main">
+		<div class="contact-infhny py-5">
+		  <div class="container py-lg-3">
+			<div class="top-map">
+			  <div class="map-content-9">
+				<form action="https://api.web3forms.com/submit" method="POST">  
+				  <div class="form-top1">
+					<h6 class="sub-title text-center">Contact Us</h6>
+					<h3 class="hny-title text-center mb-lg-5 mb-4">Get in Touch With Us</h3>
+					<div class="form-top">
+					  <div class="form-top-left">
+						<input type="hidden" name="access_key" value="39f10e2e-3438-44b7-a759-dfe8c8cb4f94">
+						<input type="text" name="w3lName" id="w3lName" placeholder="Name" required="">
+						<input type="email" name="w3lSender" id="w3lSender" placeholder="Email*" required="">
+						<input type="text" name="w3lSubject" id="w3lSubject" placeholder="Subject" required="">
+					  </div>
+					  <div class="form-top-right">
+						<textarea name="w3lMessage" id="w3lMessage" placeholder="Message*" required=""></textarea>
+					  </div>
+					</div>
+					<div class="text-center">
+					  <button type="submit" class="btn">Submit Now</button>
+					</div>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
 
     <!-- Google Map Start -->
     <div class="container-xxl py-6 px-0 wow fadeInUp" data-wow-delay="0.1s">
